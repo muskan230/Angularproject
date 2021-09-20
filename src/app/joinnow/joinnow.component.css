@@ -1,0 +1,39 @@
+.joinnow{
+    background-color: rgb(214, 227, 233);
+    width:100%;
+    height:85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joinnow .form{
+    width: 30%;
+    background-color: white;
+    padding:60px 40px;
+    box-shadow: 2px 2px 6px gray;
+}
+
+@media screen and (max-width:1200px) and (min-width:880px) {
+
+    .joinnow .form{
+        width: 40%;
+        background-color:white;
+        padding:60px 40px;
+        box-shadow: 2px 2px 6px gray;
+    }
+
+    
+}
+
+@media screen and (max-width:900px) {
+
+    .joinnow .form{
+        width: 60%;
+        background-color:white;
+        padding:60px 40px;
+        box-shadow: 2px 2px 6px gray;
+    }
+
+    
+}
